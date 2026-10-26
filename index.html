@@ -152,7 +152,7 @@ body.cloaked{overflow:hidden}
   <div class="coords" id="coords" hidden><div class="coord-n" id="cn"></div><div class="coord-w" id="cw"></div></div>
 <section class="gmap" id="gmap" hidden aria-labelledby="gmapH">
     <h2 id="gmapH">The Ghost's Map</h2>
-    <svg viewBox="0 0 600 860" role="img" aria-label="Hand-drawn map: park on the street by the P sign, enter the Dark Forest on your right, turn left at the Witch’s Hut, go down to the creek, look left to the Haunted Catacombs under the road, and look up at the first intersection.">
+    <svg viewBox="0 0 600 860" role="img" aria-label="Hand-drawn map: park on the street by the P sign, start at the Dark Forest gate on your right, turn left at the Witch’s Hut, go down to the creek, look left to the Haunted Catacombs under the road, and look up at the first intersection.">
       <defs>
         <radialGradient id="parch" cx=".5" cy=".45" r=".75"><stop offset="0" stop-color="#f3e3bd"/><stop offset=".7" stop-color="#e0c48e"/><stop offset="1" stop-color="#b8925a"/></radialGradient>
         <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="7"/></filter>
@@ -180,7 +180,7 @@ body.cloaked{overflow:hidden}
         <path d="M-46 4 C-52 8 -58 6 -62 10 M-44 -2 C-52 -4 -56 -1 -62 -4" stroke="#b8a68a" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".7"/>
       </g>
       <g transform="translate(52 100)"><path d="M0 13 V32" stroke="#4a2a10" stroke-width="2.6" stroke-linecap="round"/><rect x="-13" y="-13" width="26" height="26" rx="4" fill="#4a5a7a" stroke="#2a1a08" stroke-width="1.6"/><text x="0" y="1" text-anchor="middle" dominant-baseline="central" font-family="Georgia,serif" font-weight="700" font-size="18" fill="#f4e4c0">P</text></g>
-      <text x="74" y="166" class="lab" font-size="14"><tspan id="mapN">N 38°</tspan></text><text x="74" y="183" class="lab" font-size="14"><tspan id="mapW">W 77°</tspan></text>
+      <text x="290" y="166" class="lab" font-size="14"><tspan id="mapN">N 38°</tspan></text><text x="290" y="183" class="lab" font-size="14"><tspan id="mapW">W 77°</tspan></text>
 
       <!-- the park -->
       <path class="ink" d="M30 142 H440 M30 142 V650 H440" stroke-width="1.8" stroke-dasharray="3 7" opacity=".55"/>
@@ -214,7 +214,7 @@ body.cloaked{overflow:hidden}
       <path class="stp" style="--d:2.1s" d="M410 312 v-24 m-9 10 l9 -10 l9 10" fill="none" stroke="#7a1f12" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       <path class="stp" style="--d:1.5s" d="M262 320 h26 m-10 -9 l10 9 l-10 9" fill="none" stroke="#7a1f12" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       <path class="stp" style="--d:.9s" d="M236 236 v22 m-8 -9 l8 9 l8 -9" fill="none" stroke="#7a1f12" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
-      <g class="stp" style="--d:0.1s"><circle cx="142" cy="74" r="14" fill="#7a1f12" stroke="#f4e4c0" stroke-width="2"/><text x="142" y="74" class="num" text-anchor="middle" dominant-baseline="central">1</text></g><g class="stp" style="--d:0.6s"><circle cx="268" cy="170" r="14" fill="#7a1f12" stroke="#f4e4c0" stroke-width="2"/><text x="268" y="170" class="num" text-anchor="middle" dominant-baseline="central">2</text></g><g class="stp" style="--d:1.2s"><circle cx="226" cy="334" r="14" fill="#7a1f12" stroke="#f4e4c0" stroke-width="2"/><text x="226" y="334" class="num" text-anchor="middle" dominant-baseline="central">3</text></g><g class="stp" style="--d:1.9s"><circle cx="430" cy="346" r="14" fill="#7a1f12" stroke="#f4e4c0" stroke-width="2"/><text x="430" y="346" class="num" text-anchor="middle" dominant-baseline="central">4</text></g><g class="stp" style="--d:2.5s"><circle cx="420" cy="176" r="14" fill="#7a1f12" stroke="#f4e4c0" stroke-width="2"/><text x="420" y="176" class="num" text-anchor="middle" dominant-baseline="central">5</text></g>
+      <g class="stp" style="--d:0.6s"><circle cx="268" cy="170" r="14" fill="#7a1f12" stroke="#f4e4c0" stroke-width="2"/><text x="268" y="170" class="num" text-anchor="middle" dominant-baseline="central">1</text></g><g class="stp" style="--d:1.2s"><circle cx="226" cy="334" r="14" fill="#7a1f12" stroke="#f4e4c0" stroke-width="2"/><text x="226" y="334" class="num" text-anchor="middle" dominant-baseline="central">2</text></g><g class="stp" style="--d:1.9s"><circle cx="430" cy="346" r="14" fill="#7a1f12" stroke="#f4e4c0" stroke-width="2"/><text x="430" y="346" class="num" text-anchor="middle" dominant-baseline="central">3</text></g><g class="stp" style="--d:2.5s"><circle cx="420" cy="176" r="14" fill="#7a1f12" stroke="#f4e4c0" stroke-width="2"/><text x="420" y="176" class="num" text-anchor="middle" dominant-baseline="central">4</text></g>
 
       <!-- inside the tunnel -->
       <g class="stp" style="--d:3s">
@@ -231,12 +231,12 @@ body.cloaked{overflow:hidden}
         </g>
       </g>
       <g class="legend">
-        <rect x="312" y="676" width="262" height="146" rx="10" fill="#f3e3bd" fill-opacity=".55" stroke="#8a6030" stroke-width="1.4"/>
-        <circle cx="334" cy="700" r="10" fill="#7a1f12" stroke="#f4e4c0" stroke-width="1.5"/><text x="334" y="700" class="num" font-size="13" style="font-size:13px" text-anchor="middle" dominant-baseline="central">1</text><text x="352" y="700" class="lab" font-size="17" dominant-baseline="central">Broom parking</text>
-        <circle cx="334" cy="726" r="10" fill="#7a1f12" stroke="#f4e4c0" stroke-width="1.5"/><text x="334" y="726" class="num" font-size="13" style="font-size:13px" text-anchor="middle" dominant-baseline="central">2</text><text x="352" y="726" class="lab" font-size="17" dominant-baseline="central">Dark Forest gate</text>
-        <circle cx="334" cy="752" r="10" fill="#7a1f12" stroke="#f4e4c0" stroke-width="1.5"/><text x="334" y="752" class="num" font-size="13" style="font-size:13px" text-anchor="middle" dominant-baseline="central">3</text><text x="352" y="752" class="lab" font-size="17" dominant-baseline="central">Witch’s Hut</text>
-        <circle cx="334" cy="778" r="10" fill="#7a1f12" stroke="#f4e4c0" stroke-width="1.5"/><text x="334" y="778" class="num" font-size="13" style="font-size:13px" text-anchor="middle" dominant-baseline="central">4</text><text x="352" y="778" class="lab" font-size="17" dominant-baseline="central">Raging River</text>
-        <circle cx="334" cy="804" r="10" fill="#7a1f12" stroke="#f4e4c0" stroke-width="1.5"/><text x="334" y="804" class="num" font-size="13" style="font-size:13px" text-anchor="middle" dominant-baseline="central">5</text><text x="352" y="804" class="lab" font-size="17" dominant-baseline="central">The Crypt of Whispers</text>
+        <rect x="306" y="676" width="274" height="146" rx="10" fill="#f3e3bd" fill-opacity=".55" stroke="#8a6030" stroke-width="1.4"/>
+        <rect x="324" y="690" width="20" height="20" rx="3" fill="#4a5a7a" stroke="#2a1a08" stroke-width="1.4"/><text x="334" y="701" text-anchor="middle" dominant-baseline="central" font-family="Georgia,serif" font-weight="700" font-size="13" fill="#f4e4c0">P</text><text x="352" y="700" class="lab" font-size="17" dominant-baseline="central">Broom parking</text>
+        <circle cx="334" cy="726" r="10" fill="#7a1f12" stroke="#f4e4c0" stroke-width="1.5"/><text x="334" y="726" class="num" font-size="13" style="font-size:13px" text-anchor="middle" dominant-baseline="central">1</text><text x="352" y="726" class="lab" font-size="17" dominant-baseline="central">Dark Forest gate – Start here</text>
+        <circle cx="334" cy="752" r="10" fill="#7a1f12" stroke="#f4e4c0" stroke-width="1.5"/><text x="334" y="752" class="num" font-size="13" style="font-size:13px" text-anchor="middle" dominant-baseline="central">2</text><text x="352" y="752" class="lab" font-size="17" dominant-baseline="central">Witch’s Hut</text>
+        <circle cx="334" cy="778" r="10" fill="#7a1f12" stroke="#f4e4c0" stroke-width="1.5"/><text x="334" y="778" class="num" font-size="13" style="font-size:13px" text-anchor="middle" dominant-baseline="central">3</text><text x="352" y="778" class="lab" font-size="17" dominant-baseline="central">Raging River</text>
+        <circle cx="334" cy="804" r="10" fill="#7a1f12" stroke="#f4e4c0" stroke-width="1.5"/><text x="334" y="804" class="num" font-size="13" style="font-size:13px" text-anchor="middle" dominant-baseline="central">4</text><text x="352" y="804" class="lab" font-size="17" dominant-baseline="central">The Crypt of Whispers</text>
       </g>
       <text x="566" y="836" class="lab" font-size="13" opacity=".7" text-anchor="end">not to scale</text>
       <g transform="translate(548 640)" opacity=".75"><circle r="24" fill="none" stroke="#4a2a10" stroke-width="1.6"/><path d="M0 -28 L6 0 L0 28 L-6 0 Z" fill="#4a2a10"/><text y="-33" text-anchor="middle" class="lab" font-size="14">N</text></g>
@@ -376,7 +376,7 @@ const Music=(function(){
     isOn:function(){return on;}
   };
 })();
-const SEALED="APWkhlnHeDurnkBgOKw6waEJ65eGaD0VCHvA";
+const SEALED="APWkhlnHeDurnkBhOaw6waEJ65eGaD0VCH3M";
 function fnv(t){let h=2166136261;for(let i=0;i<t.length;i++){h^=t.charCodeAt(i);h=Math.imul(h,16777619)>>>0;}return h>>>0;}
 function stream(seed){let a=seed>>>0;return function(){a=(a+0x6D2B79F5)>>>0;let t=a;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return((t^(t>>>14))>>>0)&255;};}
 function unlock(b64,phrase){const raw=atob(b64),nx=stream(fnv(phrase)),out=new Uint8Array(raw.length);for(let i=0;i<raw.length;i++)out[i]=raw.charCodeAt(i)^nx();return new TextDecoder().decode(out);}
@@ -547,13 +547,25 @@ window.__sb={get word(){return word;},get phase(){return phase;},pick};
 /* the cloak: the board stays covered until Halloween, 31 Oct 2026 at 8:00 am Eastern (12:00 UTC) */
 (()=>{
   const OPEN=Date.UTC(2026,9,31,12,0,0),c=document.getElementById("cloak"),$=id=>document.getElementById(id);
-  if(Date.now()>=OPEN)return;
+  // the real time: read from the web server that hosts this page (the Date on its reply), then counted forward
+  // with a stopwatch that ignores the device clock. If the server can't be asked, fall back to the device clock.
+  function serverClock(){
+    const p0=performance.now(),ask=fetch(location.pathname+"?clock="+Date.now().toString(36)+Math.random().toString(36).slice(2),{method:"HEAD",cache:"no-store"})
+      .then(r=>{const p1=performance.now(),d=Date.parse(r.headers.get("date")||"");if(isNaN(d))throw 0;
+        const age=(+(r.headers.get("age")||0)||0)*1000,base=d+age+(p1-p0)/2;return ()=>base+(performance.now()-p1);});
+    const late=new Promise(res=>setTimeout(()=>res(null),6000));
+    return Promise.race([ask,late]).then(f=>f||(()=>Date.now()),()=>()=>Date.now());
+  }
+  // stay covered until the real time is known, so a wrong device clock never opens the board early
   c.hidden=false;document.body.classList.add("cloaked");
-  const pad=n=>String(n).padStart(2,"0");let iv;
+  ["cdD","cdH","cdM","cdS"].forEach(id=>{$(id).textContent="–";});
+  const pad=n=>String(n).padStart(2,"0");let iv,now=()=>Date.now();
   function lift(){clearInterval(iv);c.classList.add("lift");document.body.classList.remove("cloaked");setTimeout(()=>{c.hidden=true;},1700);}
-  function tick(){const ms=OPEN-Date.now();if(ms<=0){lift();return;}
+  function tick(){const ms=OPEN-now();if(ms<=0){lift();return;}
     const t=Math.floor(ms/1000);$("cdD").textContent=Math.floor(t/86400);$("cdH").textContent=pad(Math.floor(t/3600)%24);$("cdM").textContent=pad(Math.floor(t/60)%60);$("cdS").textContent=pad(t%60);}
-  tick();iv=setInterval(tick,1000);
+  serverClock().then(f=>{now=f;
+    if(now()>=OPEN){c.style.transition="none";lift();c.hidden=true;return;}
+    tick();iv=setInterval(tick,1000);});
   // owner's way past the cloak: three quick taps on the heading, then the password
   function fnv(t){let h=2166136261;for(let i=0;i<t.length;i++){h^=t.charCodeAt(i);h=Math.imul(h,16777619)>>>0;}return h>>>0;}
   let taps=[];const knock=()=>{const n=performance.now();taps=taps.filter(x=>n-x<1500);taps.push(n);if(taps.length>=3){taps=[];$("cloakAdm").hidden=false;$("cloakPw").focus();}};
